@@ -5,11 +5,9 @@ Enkel og ren nettside for Platou Advisory – rådgivning innen forretningsutvik
 ## Struktur
 
 ```
-├── index.html          # Forside
-├── tjenester.html      # Tjenester
-├── tilnaerming.html    # Vår tilnærming
-├── om-oss.html         # Om oss
-├── kontakt.html        # Kontakt
+├── index.html          # Offentlig forside (under utvikling)
+├── site/               # Utkast – ikke indeksert (noindex)
+├── docs/               # Intern dokumentasjon – ikke indeksert
 ├── css/styles.css      # Designsystem
 ├── js/main.js          # Navigasjon og header
 └── assets/
@@ -61,6 +59,6 @@ Font: [Archivo](https://fonts.google.com/specimen/Archivo) (overskrifter) og [In
 
 ## Tilpasning
 
-- **Kontaktinfo**: Oppdater telefon, e-post og adresse i `kontakt.html`.
+- **Kontaktinfo**: Legges til i `site/kontakt.html` ved lansering.
 - **Bilder**: Hero og seksjonsbilder lastes fra Unsplash. Bytt til egne bilder ved å erstatte URL-ene i HTML-filene.
 - **Tekst**: All innholdstekst ligger direkte i HTML-filene og kan redigeres der.
