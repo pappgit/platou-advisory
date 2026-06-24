@@ -12,7 +12,9 @@ Enkel og ren nettside for Platou Advisory – rådgivning innen forretningsutvik
 ├── kontakt.html        # Kontakt
 ├── css/styles.css      # Designsystem
 ├── js/main.js          # Navigasjon og header
-└── assets/images/      # Logo og favicons
+└── assets/
+    ├── brand/            # Logoer og favicon (SVG)
+    └── images/           # Fotografier
 ```
 
 ## Lokal forhåndsvisning
@@ -50,12 +52,12 @@ Farger og typografi følger designbriefen:
 
 | Element | Farge |
 |---------|-------|
-| Marine (primær) | `#1C2F4A` |
-| Sand/beige (aksent) | `#B8ADA2` |
-| Bakgrunn | `#F8F7F4` |
-| Tekst | `#2E3135` |
+| Marine (primær) | `#143C8C` |
+| Aksent blå | `#2E5FD0` |
+| Bakgrunn | `#F8F9FC` |
+| Tekst | `#0B1F47` |
 
-Font: [Inter](https://fonts.google.com/specimen/Inter)
+Font: [Archivo](https://fonts.google.com/specimen/Archivo) (overskrifter) og [Inter](https://fonts.google.com/specimen/Inter) (brødtekst)
 
 ## Tilpasning
 

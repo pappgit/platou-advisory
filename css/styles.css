@@ -1,19 +1,24 @@
 /* Platou Advisory – Premium design system */
 
 :root {
-  --color-navy: #1c2f4a;
-  --color-navy-deep: #142336;
-  --color-accent: #b8ada2;
-  --color-accent-hover: #a89d92;
-  --color-accent-light: #d4ccc4;
-  --color-bg: #f8f7f4;
-  --color-bg-warm: #f0eeea;
+  --color-navy: #143c8c;
+  --color-navy-deep: #0b1f47;
+  --color-accent: #2e5fd0;
+  --color-accent-hover: #2454b8;
+  --color-accent-light: #6fa0f5;
+  --color-pale: #eaf0fb;
+  --color-bg: #f8f9fc;
+  --color-bg-warm: #f0f3f9;
   --color-white: #ffffff;
-  --color-text: #2e3135;
-  --color-text-secondary: #6e7378;
-  --color-chart: #4e6988;
-  --color-footer: #141820;
-  --color-border: rgba(28, 47, 74, 0.1);
+  --color-text: #0b1f47;
+  --color-text-secondary: #6e7480;
+  --color-chart: #2e5fd0;
+  --color-footer: #0b1f47;
+  --color-border: rgba(20, 60, 140, 0.1);
+  --color-divider: #e6e2d9;
+
+  --font-family: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Archivo", var(--font-family);
 
   --font-family: "Inter", system-ui, -apple-system, sans-serif;
   --max-width: 1160px;
@@ -79,7 +84,8 @@ ul {
 /* Typography */
 
 h1, h2, h3, h4 {
-  font-weight: 600;
+  font-family: var(--font-display);
+  font-weight: 700;
   line-height: 1.15;
   color: var(--color-text);
   letter-spacing: -0.025em;
@@ -221,7 +227,7 @@ h3 {
 }
 
 .logo img {
-  height: 34px;
+  height: 38px;
   width: auto;
   display: block;
   transition: opacity var(--transition);
@@ -367,8 +373,8 @@ h3 {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(105deg, rgba(20, 35, 54, 0.82) 0%, rgba(28, 47, 74, 0.55) 45%, rgba(28, 47, 74, 0.25) 100%),
-    linear-gradient(to top, rgba(20, 35, 54, 0.7) 0%, transparent 50%);
+    linear-gradient(105deg, rgba(11, 31, 71, 0.88) 0%, rgba(20, 60, 140, 0.6) 45%, rgba(20, 60, 140, 0.3) 100%),
+    linear-gradient(to top, rgba(11, 31, 71, 0.75) 0%, transparent 50%);
 }
 
 .hero__content {
@@ -437,13 +443,13 @@ h3 {
 .btn--primary {
   background: var(--color-accent);
   color: var(--color-white);
-  box-shadow: 0 4px 20px rgba(184, 173, 162, 0.35);
+  box-shadow: 0 4px 20px rgba(46, 95, 208, 0.35);
 }
 
 .btn--primary:hover {
   background: var(--color-accent-hover);
   transform: translateY(-2px);
-  box-shadow: 0 8px 28px rgba(184, 173, 162, 0.45);
+  box-shadow: 0 8px 28px rgba(46, 95, 208, 0.45);
 }
 
 .btn--ghost {
@@ -974,7 +980,7 @@ h3 {
 }
 
 .footer-brand .logo img {
-  height: 30px;
+  height: 34px;
   margin-bottom: 1.25rem;
 }
 
