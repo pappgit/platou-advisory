@@ -7,7 +7,7 @@
   <title>Platou Advisory – Forretningsutvikling</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16.png">
   <link rel="apple-touch-icon" href="assets/images/favicon-180.png">
@@ -27,7 +27,7 @@
         <a href="om-oss.html" class="nav-link">Om oss</a>
         <a href="tjenester.html" class="nav-link">Tjenester</a>
         <a href="tilnaerming.html" class="nav-link">Tilnærming</a>
-        <a href="kontakt.html" class="nav-link">Kontakt</a>
+        <a href="kontakt.html" class="nav-cta">Kontakt</a>
       </nav>
     </div>
   </header>
@@ -39,44 +39,58 @@
         <div class="hero__overlay"></div>
       </div>
       <div class="container hero__content">
+        <p class="eyebrow eyebrow--light">Platou Advisory</p>
         <h1>Forretningsutvikling som skaper varig verdi.</h1>
         <p class="lead">Vi hjelper virksomheter å forstå muligheter, utvikle strategier og ta bedre beslutninger – støttet av analyser og prosessforbedringer som gir målbar effekt.</p>
-        <a href="tjenester.html" class="btn btn--primary">Se våre tjenester</a>
+        <div class="hero__actions">
+          <a href="tjenester.html" class="btn btn--primary">Se våre tjenester</a>
+          <a href="kontakt.html" class="btn btn--ghost">Ta kontakt</a>
+        </div>
       </div>
     </section>
 
     <section class="section section--white">
       <div class="container">
-        <p class="eyebrow" style="text-align: center;">Hvordan vi skaper verdi</p>
+        <div class="section-header reveal">
+          <p class="eyebrow">Hvordan vi skaper verdi</p>
+          <h2>Innsikt, strategi og gjennomføring</h2>
+          <p>Vi kombinerer analytisk presisjon med praktisk erfaring – for resultater som varer.</p>
+        </div>
         <div class="value-grid">
-          <article class="value-card value-card--side">
-            <svg class="value-card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-              <rect x="8" y="28" width="6" height="12" rx="1"/>
-              <rect x="18" y="20" width="6" height="20" rx="1"/>
-              <rect x="28" y="12" width="6" height="28" rx="1"/>
-              <rect x="38" y="24" width="6" height="16" rx="1"/>
-            </svg>
+          <article class="value-card value-card--side reveal reveal-delay-1">
+            <div class="value-card__icon-wrap">
+              <svg class="value-card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="8" y="28" width="6" height="12" rx="1"/>
+                <rect x="18" y="20" width="6" height="20" rx="1"/>
+                <rect x="28" y="12" width="6" height="28" rx="1"/>
+                <rect x="38" y="24" width="6" height="16" rx="1"/>
+              </svg>
+            </div>
             <h3>Analyser</h3>
             <p>Datadrevne analyser som gir innsikt i marked, kunder og interne prosesser – grunnlaget for gode beslutninger.</p>
           </article>
-          <article class="value-card value-card--featured">
-            <svg class="value-card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-              <path d="M8 36 L20 24 L28 30 L40 14"/>
-              <path d="M32 14 H40 V22"/>
-            </svg>
+          <article class="value-card value-card--featured reveal">
+            <div class="value-card__icon-wrap">
+              <svg class="value-card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M8 36 L20 24 L28 30 L40 14"/>
+                <path d="M32 14 H40 V22"/>
+              </svg>
+            </div>
             <h3>Forretningsutvikling</h3>
             <p>Vi identifiserer vekstmuligheter, utvikler strategier og prioriterer tiltak som gir målbar effekt. Dette er kjernen i det vi gjør.</p>
-            <a href="tjenester.html" class="text-link" style="margin-top: 1rem; justify-content: center;">
+            <a href="tjenester.html" class="text-link text-link--light" style="margin-top: 1.25rem; justify-content: center;">
               Les mer
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </article>
-          <article class="value-card value-card--side">
-            <svg class="value-card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-              <circle cx="24" cy="24" r="8"/>
-              <path d="M24 4 V10 M24 38 V44 M4 24 H10 M38 24 H44"/>
-              <path d="M9.9 9.9 L14.1 14.1 M33.9 33.9 L38.1 38.1 M9.9 38.1 L14.1 33.9 M33.9 14.1 L38.1 9.9"/>
-            </svg>
+          <article class="value-card value-card--side reveal reveal-delay-2">
+            <div class="value-card__icon-wrap">
+              <svg class="value-card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="24" cy="24" r="8"/>
+                <path d="M24 4 V10 M24 38 V44 M4 24 H10 M38 24 H44"/>
+                <path d="M9.9 9.9 L14.1 14.1 M33.9 33.9 L38.1 38.1 M9.9 38.1 L14.1 33.9 M33.9 14.1 L38.1 9.9"/>
+              </svg>
+            </div>
             <h3>Prosessforbedringer</h3>
             <p>Vi kartlegger flaskehalser, digitaliserer rutiner og hjelper organisasjonen å jobbe mer effektivt.</p>
           </article>
@@ -85,10 +99,10 @@
     </section>
 
     <section class="split">
-      <div class="split__image">
+      <div class="split__image reveal">
         <img src="assets/images/meeting-room.jpg" alt="Moderne møterom" width="1200" height="801" loading="lazy">
       </div>
-      <div class="split__content">
+      <div class="split__content reveal reveal-delay-1">
         <p class="eyebrow">Forretningsutvikling i praksis</p>
         <h2>Vi hjelper deg å se muligheter – og få dem gjennomført.</h2>
         <p>Forretningsutvikling handler om mer enn strategidokumenter. Vi jobber tett med ledelsen for å forstå marked, kunder og interne forutsetninger – og utvikler konkrete tiltak som gir målbar effekt.</p>
@@ -99,20 +113,48 @@
         </a>
       </div>
     </section>
+
+    <section class="cta-band">
+      <div class="container cta-band__inner reveal">
+        <div>
+          <h2>Klar for en uforpliktende samtale?</h2>
+          <p>Vi tar gjerne en prat om hvordan vi kan bidra til vekst og forbedring hos dere.</p>
+        </div>
+        <a href="kontakt.html" class="btn btn--primary">Ta kontakt</a>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <a href="index.html" class="logo" aria-label="Platou Advisory">
-        <img src="assets/images/logo-light.svg" alt="Platou Advisory" width="160" height="28">
-      </a>
-      <p class="footer-copy">&copy; 2026 Platou Advisory AS</p>
-      <nav class="footer-nav" aria-label="Bunntekst">
-        <a href="om-oss.html">Om oss</a>
-        <a href="tjenester.html">Tjenester</a>
-        <a href="tilnaerming.html">Tilnærming</a>
-        <a href="kontakt.html">Kontakt</a>
-      </nav>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="Platou Advisory">
+            <img src="assets/images/logo-light.svg" alt="Platou Advisory" width="160" height="28">
+          </a>
+          <p class="footer-tagline">Rådgivning innen forretningsutvikling, analyser og prosessforbedringer.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Sider</h4>
+          <ul>
+            <li><a href="om-oss.html">Om oss</a></li>
+            <li><a href="tjenester.html">Tjenester</a></li>
+            <li><a href="tilnaerming.html">Tilnærming</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <ul>
+            <li><a href="tel:+4722000000">+47 22 00 00 00</a></li>
+            <li><a href="mailto:post@platou.no">post@platou.no</a></li>
+            <li><span>Dronning Mauds gate 10, Oslo</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Platou Advisory AS</p>
+      </div>
     </div>
   </footer>
 

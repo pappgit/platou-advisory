@@ -7,7 +7,7 @@
   <title>Om oss – Platou Advisory</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -24,21 +24,22 @@
         <a href="om-oss.html" class="nav-link nav-link--active">Om oss</a>
         <a href="tjenester.html" class="nav-link">Tjenester</a>
         <a href="tilnaerming.html" class="nav-link">Tilnærming</a>
-        <a href="kontakt.html" class="nav-link">Kontakt</a>
+        <a href="kontakt.html" class="nav-cta">Kontakt</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="section section--white" style="padding-top: calc(var(--header-height) + 3rem);">
+    <section class="section section--white" style="padding-top: calc(var(--header-height) + 4rem);">
       <div class="container about-grid">
-        <div>
-          <h1>Om oss</h1>
+        <div class="reveal">
+          <p class="eyebrow">Om oss</p>
+          <h1>Praktisk rådgivning med analytisk tyngde</h1>
           <p style="margin-top: 1.5rem;">Platou Advisory er et rådgivningsselskap med forretningsutvikling i sentrum. Vi hjelper virksomheter å forstå muligheter, utvikle strategier og ta bedre beslutninger – med analyser og prosessforbedringer som støtte underveis.</p>
           <p>Vi kombinerer analytisk styrke med praktisk gjennomføring. Vårt utgangspunkt er alltid virksomhetens reelle utfordringer – ikke ferdige modeller eller konsulentklisjeer. Vi jobber jordnært, strukturert og i tett samarbeid med kundene våre.</p>
           <p>Enten det handler om vekststrategi, nye markeder eller effektivisering av eksisterende virksomhet – vi leverer innsikt du kan handle på, og bistår med å få det gjennomført.</p>
         </div>
-        <div class="about-grid__image">
+        <div class="about-grid__image reveal reveal-delay-1">
           <img src="assets/images/office.jpg" alt="Moderne kontorlandskap" width="800" height="534" loading="lazy">
         </div>
       </div>
@@ -46,17 +47,35 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <a href="index.html" class="logo" aria-label="Platou Advisory">
-        <img src="assets/images/logo-light.svg" alt="Platou Advisory" width="160" height="28">
-      </a>
-      <p class="footer-copy">&copy; 2026 Platou Advisory AS</p>
-      <nav class="footer-nav" aria-label="Bunntekst">
-        <a href="om-oss.html">Om oss</a>
-        <a href="tjenester.html">Tjenester</a>
-        <a href="tilnaerming.html">Tilnærming</a>
-        <a href="kontakt.html">Kontakt</a>
-      </nav>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="Platou Advisory">
+            <img src="assets/images/logo-light.svg" alt="Platou Advisory" width="160" height="28">
+          </a>
+          <p class="footer-tagline">Rådgivning innen forretningsutvikling, analyser og prosessforbedringer.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Sider</h4>
+          <ul>
+            <li><a href="om-oss.html">Om oss</a></li>
+            <li><a href="tjenester.html">Tjenester</a></li>
+            <li><a href="tilnaerming.html">Tilnærming</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <ul>
+            <li><a href="tel:+4722000000">+47 22 00 00 00</a></li>
+            <li><a href="mailto:post@platou.no">post@platou.no</a></li>
+            <li><span>Dronning Mauds gate 10, Oslo</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Platou Advisory AS</p>
+      </div>
     </div>
   </footer>
 
