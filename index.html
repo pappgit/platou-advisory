@@ -11,10 +11,10 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Platou Advisory – Forretningsutvikling og rådgivning</title>
+  <meta name="robots" content="index, follow">
   <meta name="description" content="Platou Advisory er et rådgivningsselskap innen forretningsutvikling, analyser og prosessforbedringer. Vi hjelper virksomheter med strategi, vekst og bedre beslutninger.">
   <meta name="keywords" content="forretningsutvikling, forretningsutvikler, rådgivning, analyser, prosessforbedringer, strategi, vekst, Oslo, Norge">
-  <meta name="robots" content="index, follow">
+  <title>Platou Advisory – Forretningsutvikling og rådgivning</title>
   <link rel="canonical" href="https://platouadv.com/">
 
   <meta property="og:type" content="website">
@@ -30,9 +30,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="icon" href="assets/brand/platou-favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/construction.css">
+  <link rel="stylesheet" href="css/styles.css">
 
   <script type="application/ld+json">
   {
@@ -71,17 +71,142 @@
   </script>
 </head>
 <body>
-  <main class="construction">
-    <div class="construction__inner">
-      <img src="assets/brand/platou-logo-horizontal.svg" alt="Platou Advisory – forretningsutvikling og rådgivning" class="construction__logo" width="200" height="50">
-      <p class="construction__eyebrow">Under utvikling</p>
-      <h1>Ny nettside kommer snart.</h1>
-      <p class="construction__lead">Vi jobber med en oppdatert presentasjon av Platou Advisory. Kom tilbake om litt.</p>
-      <p class="construction__contact">
-        Spørsmål? <a href="mailto:kontakt@platouadv.com">kontakt@platouadv.com</a>
-      </p>
-      <div class="construction__bar" aria-hidden="true"><span></span></div>
+  <header class="site-header site-header--transparent">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Platou Advisory">
+        <img src="assets/brand/platou-logo-horizontal.svg" alt="Platou Advisory" class="logo--dark" width="152" height="38">
+        <img src="assets/brand/platou-logo-horizontal-reverse.svg" alt="" class="logo--light" width="152" height="38">
+      </a>
+      <button class="nav-toggle" aria-label="Meny" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Hovedmeny">
+        <a href="om-oss.html" class="nav-link">Om oss</a>
+        <a href="tjenester.html" class="nav-link">Tjenester</a>
+        <a href="tilnaerming.html" class="nav-link">Tilnærming</a>
+        <a href="kontakt.html" class="nav-cta">Kontakt</a>
+      </nav>
     </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__bg">
+        <img src="assets/images/hero.jpg" alt="Norsk fjellandskap i tåke" width="1920" height="1144">
+        <div class="hero__overlay"></div>
+      </div>
+      <div class="container hero__content">
+        <p class="eyebrow eyebrow--light">Platou Advisory</p>
+        <h1>Forretningsutvikling som skaper varig verdi.</h1>
+        <p class="lead">Vi hjelper virksomheter å forstå muligheter, utvikle strategier og ta bedre beslutninger – støttet av analyser og prosessforbedringer som gir målbar effekt.</p>
+        <div class="hero__actions">
+          <a href="tjenester.html" class="btn btn--primary">Se våre tjenester</a>
+          <a href="kontakt.html" class="btn btn--ghost">Ta kontakt</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="eyebrow">Hvordan vi skaper verdi</p>
+          <h2>Innsikt, strategi og gjennomføring</h2>
+          <p>Vi kombinerer analytisk presisjon med praktisk erfaring – for resultater som varer.</p>
+        </div>
+        <div class="value-grid">
+          <article class="value-card value-card--side reveal reveal-delay-1">
+            <div class="value-card__icon-wrap">
+              <svg class="value-card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="8" y="28" width="6" height="12" rx="1"/>
+                <rect x="18" y="20" width="6" height="20" rx="1"/>
+                <rect x="28" y="12" width="6" height="28" rx="1"/>
+                <rect x="38" y="24" width="6" height="16" rx="1"/>
+              </svg>
+            </div>
+            <h3>Analyser</h3>
+            <p>Datadrevne analyser som gir innsikt i marked, kunder og interne prosesser – grunnlaget for gode beslutninger.</p>
+          </article>
+          <article class="value-card value-card--featured reveal">
+            <div class="value-card__icon-wrap">
+              <svg class="value-card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M8 36 L20 24 L28 30 L40 14"/>
+                <path d="M32 14 H40 V22"/>
+              </svg>
+            </div>
+            <h3>Forretningsutvikling</h3>
+            <p>Vi identifiserer vekstmuligheter, utvikler strategier og prioriterer tiltak som gir målbar effekt. Dette er kjernen i det vi gjør.</p>
+            <a href="tjenester.html" class="text-link text-link--light" style="margin-top: 1.25rem; justify-content: center;">
+              Les mer
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+          <article class="value-card value-card--side reveal reveal-delay-2">
+            <div class="value-card__icon-wrap">
+              <svg class="value-card__icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="24" cy="24" r="8"/>
+                <path d="M24 4 V10 M24 38 V44 M4 24 H10 M38 24 H44"/>
+                <path d="M9.9 9.9 L14.1 14.1 M33.9 33.9 L38.1 38.1 M9.9 38.1 L14.1 33.9 M33.9 14.1 L38.1 9.9"/>
+              </svg>
+            </div>
+            <h3>Prosessforbedringer</h3>
+            <p>Vi kartlegger flaskehalser, digitaliserer rutiner og hjelper organisasjonen å jobbe mer effektivt.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="split">
+      <div class="split__image reveal">
+        <img src="assets/images/meeting-room.jpg" alt="Moderne møterom" width="1200" height="801" loading="lazy">
+      </div>
+      <div class="split__content reveal reveal-delay-1">
+        <p class="eyebrow">Forretningsutvikling i praksis</p>
+        <h2>Vi hjelper deg å se muligheter – og få dem gjennomført.</h2>
+        <p>Forretningsutvikling handler om mer enn strategidokumenter. Vi jobber tett med ledelsen for å forstå marked, kunder og interne forutsetninger – og utvikler konkrete tiltak som gir målbar effekt.</p>
+        <p>Analyser og prosessforbedringer er verktøyene vi bruker underveis, for å sikre at beslutningene er gode og at forbedringene faktisk slår ut.</p>
+        <a href="tilnaerming.html" class="text-link">
+          Les mer om vår tilnærming
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-band__inner reveal">
+        <div>
+          <h2>Klar for en uforpliktende samtale?</h2>
+          <p>Vi tar gjerne en prat om hvordan vi kan bidra til vekst og forbedring hos dere.</p>
+        </div>
+        <a href="kontakt.html" class="btn btn--primary">Ta kontakt</a>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo" aria-label="Platou Advisory">
+            <img src="assets/brand/platou-logo-horizontal-reverse.svg" alt="Platou Advisory" width="152" height="38">
+          </a>
+          <p class="footer-tagline">Rådgivning innen forretningsutvikling, analyser og prosessforbedringer.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Sider</h4>
+          <ul>
+            <li><a href="om-oss.html">Om oss</a></li>
+            <li><a href="tjenester.html">Tjenester</a></li>
+            <li><a href="tilnaerming.html">Tilnærming</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Platou Advisory AS</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
