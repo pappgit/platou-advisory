@@ -72,6 +72,19 @@ h1 {
   color: var(--text-muted);
 }
 
+.construction__lead strong {
+  color: var(--navy-deep);
+  font-weight: 500;
+}
+
+.construction__note {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  opacity: 0.85;
+}
+
 .construction__bar {
   margin-top: 2.5rem;
   height: 3px;
