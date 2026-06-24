@@ -153,6 +153,7 @@ h3 {
 .logo img {
   height: 32px;
   width: auto;
+  display: block;
 }
 
 .logo--light {

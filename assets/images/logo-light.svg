@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 40" fill="none" aria-hidden="true">
+  <rect x="2" y="4" width="5" height="32" fill="#FFFFFF"/>
+  <path d="M11 4 H22 A12 12 0 0 1 22 20 H11" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt" fill="none"/>
+  <path d="M14 28 L22 20 L30 32" stroke="#B8ADA2" stroke-width="4.5" stroke-linecap="butt" stroke-linejoin="miter" fill="none"/>
+  <text x="42" y="27" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" letter-spacing="0.04em">PLATOU</text>
+  <text x="128" y="27" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="400" fill="#FFFFFF" letter-spacing="0.12em">ADVISORY</text>
+</svg>
