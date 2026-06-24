@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /site/
 Disallow: /docs/
 
 Sitemap: https://platouadv.com/sitemap.xml

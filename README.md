@@ -6,8 +6,7 @@ Enkel og ren nettside for Platou Advisory – rådgivning innen forretningsutvik
 
 ```
 ├── index.html          # Offentlig forside (under utvikling)
-├── site/               # Utkast – ikke indeksert (noindex)
-├── docs/               # Intern dokumentasjon – ikke indeksert
+├── docs/               # Dokumentasjon – ikke indeksert
 ├── css/styles.css      # Designsystem
 ├── js/main.js          # Navigasjon og header
 └── assets/
@@ -57,8 +56,21 @@ Farger og typografi følger designbriefen:
 
 Font: [Archivo](https://fonts.google.com/specimen/Archivo) (overskrifter) og [Inter](https://fonts.google.com/specimen/Inter) (brødtekst)
 
+## Forhåndsvisning av full nettside
+
+Den komplette nettsiden ligger på branchen **`site-draft`** (ikke publisert på platouadv.com).
+
+```bash
+git fetch origin
+git checkout site-draft
+python3 -m http.server 8000
+# Åpne http://localhost:8000/site/
+```
+
+Ved lansering: flytt innholdet fra `site/` til rot og merge til `main`.
+
 ## Tilpasning
 
-- **Kontaktinfo**: Legges til i `site/kontakt.html` ved lansering.
+- **Kontaktinfo**: Legges til i `site/kontakt.html` på `site-draft`-branchen ved lansering.
 - **Bilder**: Hero og seksjonsbilder lastes fra Unsplash. Bytt til egne bilder ved å erstatte URL-ene i HTML-filene.
 - **Tekst**: All innholdstekst ligger direkte i HTML-filene og kan redigeres der.

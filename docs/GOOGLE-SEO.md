@@ -46,5 +46,5 @@ Opprett eller oppdater bedriftsprofil på [business.google.com](https://business
 ## Viktig å vite
 
 - Siden viser «kommer snart» – Google kan indeksere den, men rangering på konkurransetunge ord som *forretningsutvikling* krever mer innhold.
-- Når den fulle nettsiden lanseres (fra `/site/`), bør sitemap utvides og indeksering be om på nytt.
+- Når den fulle nettsiden lanseres (fra `site-draft`-branchen), bør sitemap utvides og indeksering be om på nytt.
 - Indeksering tar typisk **noen dager til flere uker**.
