@@ -873,6 +873,11 @@ h3 {
   margin-inline: auto;
 }
 
+.contact-list--single {
+  grid-template-columns: 1fr;
+  max-width: 22rem;
+}
+
 .contact-item {
   display: flex;
   flex-direction: column;
