@@ -2,21 +2,16 @@
 
 Nettside for Platou Advisory – rådgivning innen forretningsutvikling, analyser og prosessforbedringer.
 
-**Live:** https://platouadv.com
+**Live:** https://platouadv.com (viser «under utvikling»)
 
-## Struktur
+Den komplette nettsiden ligger på branchen **`site-draft`** og kan lanseres på nytt ved behov.
+
+## Struktur (main – offentlig)
 
 ```
-├── index.html          # Forside
-├── tjenester.html      # Tjenester
-├── tilnaerming.html    # Tilnærming
-├── om-oss.html         # Om oss
-├── kontakt.html        # Kontakt
-├── css/styles.css      # Designsystem
-├── js/main.js          # Navigasjon og header
-└── assets/
-    ├── brand/          # Logoer og favicon (SVG)
-    └── images/         # Fotografier
+├── index.html          # Under utvikling-forside
+├── css/construction.css
+└── assets/brand/       # Logoer og favicon
 ```
 
 ## Lokal forhåndsvisning
@@ -25,22 +20,17 @@ Nettside for Platou Advisory – rådgivning innen forretningsutvikling, analyse
 python3 -m http.server 8000
 ```
 
-Gå til [http://localhost:8000](http://localhost:8000).
+## Forhåndsvisning av full nettside
+
+```bash
+git checkout site-draft
+python3 -m http.server 8000
+# Åpne http://localhost:8000/site/
+```
 
 ## Publisering
 
-Nettsiden deployes automatisk via **GitHub Pages** fra `main`-branchen til `platouadv.com` (Cloudflare DNS).
-
-## Design
-
-| Element | Farge |
-|---------|-------|
-| Marine (primær) | `#143C8C` |
-| Aksent blå | `#2E5FD0` |
-| Bakgrunn | `#F8F9FC` |
-| Tekst | `#0B1F47` |
-
-Font: [Archivo](https://fonts.google.com/specimen/Archivo) (overskrifter) og [Inter](https://fonts.google.com/specimen/Inter) (brødtekst)
+Nettsiden deployes automatisk via **GitHub Pages** fra `main`-branchen til `platouadv.com`.
 
 ## Dokumentasjon
 

@@ -1,0 +1,123 @@
+:root {
+  --navy: #143c8c;
+  --navy-deep: #0b1f47;
+  --accent: #2e5fd0;
+  --pale: #eaf0fb;
+  --text-muted: #6e7480;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: var(--pale);
+  color: var(--navy-deep);
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+.construction {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(46, 95, 208, 0.12) 0%, transparent 70%),
+    linear-gradient(180deg, #f8f9fc 0%, var(--pale) 100%);
+}
+
+.construction__inner {
+  text-align: center;
+  max-width: 28rem;
+}
+
+.construction__logo {
+  height: 44px;
+  width: auto;
+  margin: 0 auto 2.5rem;
+}
+
+.construction__eyebrow {
+  font-family: "Archivo", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: "Archivo", sans-serif;
+  font-size: clamp(1.75rem, 5vw, 2.25rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+  color: var(--navy-deep);
+  margin-bottom: 1rem;
+}
+
+.construction__lead {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+.construction__contact {
+  margin-top: 1.75rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.construction__contact a {
+  color: var(--navy);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(20, 60, 140, 0.25);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.construction__contact a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.construction__bar {
+  margin-top: 2.5rem;
+  height: 3px;
+  background: rgba(20, 60, 140, 0.1);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.construction__bar span {
+  display: block;
+  height: 100%;
+  width: 35%;
+  background: linear-gradient(90deg, var(--navy), var(--accent));
+  border-radius: 2px;
+  animation: progress 2.5s ease-in-out infinite;
+}
+
+@keyframes progress {
+  0% { transform: translateX(-100%); width: 35%; }
+  50% { width: 55%; }
+  100% { transform: translateX(320%); width: 35%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .construction__bar span {
+    animation: none;
+    width: 40%;
+    transform: none;
+  }
+}
